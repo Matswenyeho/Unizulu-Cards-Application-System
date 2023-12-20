@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "387089719572",
+    "project_id": "unizulu-database-f2f21",
+    "storage_bucket": "unizulu-database-f2f21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387089719572:android:2edb71cb831e010179a201",
+        "android_client_info": {
+          "package_name": "com.example.unizulucardsapplicationsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYKBeBHjB5g5SAe46FEZrBW92za02wdhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387089719572:android:3b6ec717a84328ad79a201",
+        "android_client_info": {
+          "package_name": "com.example.unizuluitsenabler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYKBeBHjB5g5SAe46FEZrBW92za02wdhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

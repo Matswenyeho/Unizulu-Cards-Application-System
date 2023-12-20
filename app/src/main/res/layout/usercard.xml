@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="email"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:id="@+id/slog"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:contentDescription="@string/todo"
+        />
+
+    <TextView
+        android:id="@+id/kwadlangezwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kwadlangezwa_campus"
+        android:textColor="@color/darkblue"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/display_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="year"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/display_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="res"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/display_degreetype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="degree"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/virtual_card_image"
+        android:layout_width="67dp"
+        android:layout_height="71dp"
+        android:background="@drawable/profilepic"
+        android:contentDescription="@string/todo1"
+        />
+
+    <TextView
+        android:id="@+id/display_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="tittle"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/display_initials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/initials"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/display_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="surname"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/display_studentno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_tittle"
+        android:hint="@string/student_number"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/display_identity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_studentno"
+        android:hint="id"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/printbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="468dp"
+        android:onClick="printUserData"
+        android:text="@string/print"
+        />
+
+</LinearLayout>
